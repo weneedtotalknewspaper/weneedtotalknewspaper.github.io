@@ -1,0 +1,44 @@
+---
+title: "Editions"
+layout: default
+permalink: "/editions.html"
+---
+
+<div class="container justify-content-center">
+<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+
+
+    {% assign sorted = site.editions | sort: 'date' | reverse %}
+
+    <div class="shadow jumbotron-ed jumbotron-fluid jumbotron-home bg-lightblue position-relative row w-85">
+        <div class="pl-4 pr-0 h-100 tofront">
+            <div class="row justify-content-between h-100">
+                <div class="col-md-6 pr-lg-4 align-self-center">
+                    <h1 class="mb-5">Current Edition</h1>
+                    <p class="mb-3 lead">
+                        Our monthly issues aim to encourage student activism all over the world and provide a platform for high schoolers to have their voices heard.
+                    </p>
+                    <a href="{{site.baseurl}}/assets/editions/{{sorted[0].file}}" class="btn btn-dark">Read More</a>
+                </div>
+                <div class="col-md-6 float-right">	
+                    <img style="max-width:70%;" class="float-right" src="{{site.baseurl}}/assets/images/{{sorted[0].cover}}"></img>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <div class="row gap-y listrecent listrecent listauthor">
+
+    {% assign sorted = sorted | shift %}
+    {% for edition in sorted %}
+        <div class="col-lg-4 mb-4">
+            <div class="p-4 border rounded shadow">
+            <div class="row justify-content-center">
+                <h3 class="text-dark mb-3"> {{ edition.date | date: '%B %Y'  }} </h3>
+                <a href="{{site.baseurl}}/assets/editions/{{edition.file}}"><img src="assets/images/{{edition.cover}}"></img></a>
+            </div>
+           </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>

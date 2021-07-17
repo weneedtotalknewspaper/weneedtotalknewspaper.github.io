@@ -48,6 +48,12 @@ defaults:
       path: "_pages"
     values:
       layout: page
+  
+  # all editions
+  - scope:
+      path: "_editions"
+    values:
+      layout: edition
       
 # Syntax
 markdown: kramdown
@@ -56,7 +62,9 @@ highlighter: rouge
 # Paginate
 paginate: 10
 
-
+# Editions
+collections:
+  - editions
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
