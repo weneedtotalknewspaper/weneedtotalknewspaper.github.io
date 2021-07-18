@@ -6,6 +6,15 @@ body {
 	overflow-x:hidden;
 	padding-top:69.75px;
 }
+
+.color-teal {
+	color:teal;
+}
+
+.nav-font {
+	font-size: 1.1rem !important;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .site-content {
 	margin-top:30px;
 	min-height:400px;
@@ -192,14 +201,14 @@ a.text-dark:hover {
 	font-weight:400;
 }
 .navbar .highlight .nav-link {
-	color:#03a87c !important;
-	border:1px solid #03a87c;
+	color:#670fff !important;
+	border:1px solid #670fff;
 	padding:0.3rem 1rem;
 	border-radius:3px;
 	font-size:.93rem;
 }
 .navbar .highlight .nav-link:hover {
-	background:#03a87c;
+	background:#670fff;
 	color:#fff !important;
 }
 .navbar-brand {
@@ -336,6 +345,9 @@ a.text-dark:hover {
 }
 .overlay-blue:before {
 	background-color:rgba(23,29,90,0.5);
+}
+.bg-lav {
+	fill:lav !important;
 }
 .bg-primary {
 	fill:#03a87c !important;

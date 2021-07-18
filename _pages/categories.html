@@ -8,23 +8,36 @@ permalink: "/categories.html"
     <div class="row justify-content-center">
         <div class="col-md-8">
         <h1 class="font-weight-bold title h6 text-uppercase mb-4">Categories</h1>
-            
-        {% for category in site.categories %} 
-        <h4 class="font-weight-bold spanborder text-capitalize" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h4>
-            
-        {% assign pages_list = category[1] %}
-        {% for post in pages_list %}
-        {% if post.title != null %}
-          {% if group == null or group == post.group %}
-         
-            {% include main-loop-card.html %}
-          {% endif %}
-        {% endif %}
-        {% endfor %}
-        {% assign pages_list = nil %}
-        {% assign group = nil %}
+
+        {% for category in site.categories%}
 
         {% endfor %}
+
+        <ul id="profileTabs" class="nav nav-tabs">
+          <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+          <li><a href="#about" data-toggle="tab">About</a></li>
+          <li><a href="#match" data-toggle="tab">Match</a></li>
+      </ul>
+        <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="profile">
+          <h2>Profile</h2>
+      <p>Praesent sit amet fermentum leo....</p>
+      </div>
+      
+      <div role="tabpanel" class="tab-pane" id="about">
+          <h2>About</h2>
+          <p>Lorem ipsum ...</p></div>
+      
+      <div role="tabpanel" class="tab-pane" id="match">
+          <h2>Match</h2>
+          <p>Vel vehicula ....</p>
+      </div>
+      </div>
+      
+
+
+
+            
 
         </div>
         
@@ -34,3 +47,5 @@ permalink: "/categories.html"
         
     </div>
 </div>
+
+

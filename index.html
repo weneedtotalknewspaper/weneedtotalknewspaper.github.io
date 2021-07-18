@@ -33,8 +33,12 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
     <div>
         <small class="d-block text-muted">
             In <span class="catlist">
-                {% for category in latest_post.categories %}
-                <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+                {% for section in site.sections %}
+
+                    {% if latest_post.section == section.section_name %}
+                    <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/{{section.permalink}}">{{ section.section_name }}</a>
+                    {% endif %}
+                
                 {% endfor %}
                 </span>                   
         </small>

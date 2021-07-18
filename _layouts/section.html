@@ -1,0 +1,59 @@
+---
+title: "Sections"
+layout: default
+permalink: "/sections.html"
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h4 class="font-weight-bold spanborder"><span>Sections</span></h4>
+
+            <!-- Navbar to navigate between sections -->
+            <ul class="nav nav-tabs">
+                {% for section in site.sections%}
+
+
+                    {% if section.name == page.name %}
+
+                        <li class="nav-item active">
+                            <a class="nav-link nav-font color-teal active" href="{{site.baseurl}}/{{section.permalink}}">{{section.section_name}}</a>
+                        </li>
+
+                    {% else %}
+
+                        <li class="nav-item">
+                            <a class="nav-link nav-font color-teal " href="{{site.baseurl}}/{{section.permalink}}">{{section.section_name}}</a>
+                        </li>
+
+                    {% endif %}
+
+
+
+
+                {% endfor %}
+            </ul>
+
+            <div class="pb-3"></div>
+
+
+
+            {% for post in site.posts %}
+                {% if post.section == page.section_name %}
+                    {% if group == null or group == post.group %}
+                            {% include main-loop-card.html %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+    
+        </div>
+
+        <div class="col-md-4">
+            {% include sidebar-featured.html %}    
+        </div>
+        
+    </div>
+</div>
+
+
