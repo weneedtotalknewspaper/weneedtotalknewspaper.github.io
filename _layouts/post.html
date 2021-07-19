@@ -5,8 +5,8 @@ layout: default
 <div class="container">
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
-			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
-				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+			<div class="row {% if page.cover_photo %} justify-content-between {% else %} justify-content-center {% endif %}">
+				<div class="{% if page.cover_photo %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
@@ -15,6 +15,7 @@ layout: default
                         </span>
 					</p>
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
+					{% if page.tw %} <p>{{page.tw}}</p> {%endif%}
 					<div class="d-flex align-items-center">
                         {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
@@ -24,9 +25,9 @@ layout: default
 						</small>
 					</div>
 				</div>
-                {% if page.image %}
+                {% if page.cover_photo %}
 				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+					<img class="rounded" src="{% if page.cover_photo contains "://" %}{{ page.cover_photo }}{% else %}{{ site.baseurl }}/{{ page.cover_photo }}{% endif %}" alt="{{ page.title }}">
 				</div>
                 {% endif %}
 			</div>
