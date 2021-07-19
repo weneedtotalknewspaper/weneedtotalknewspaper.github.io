@@ -26,16 +26,16 @@ If you want to add photos to an article, you need to add it to the frontmatter a
 
 Add to the article text markdown the following block of HTML, replacing N with the actual number of the photo as specified in the frontmatter
 
-```<div class="pr-0 justify-content-center ">
+```
+<div class="pr-0 justify-content-center ">
     <figure>
 	    <img class="rounded img-fluid" src="{% if page.photoN contains "://" %}{{ page.photoN }}{% else %}{{ site.baseurl }}/{{ page.photoN }}{% endif %}" alt="{{ page.title }}">
         {% if page.captionN %}
             <figcaption class="figure-caption">{{page.captionN}}</figcaption>
         {% endif %}
     </figure>
-</div>```
-
-
+</div>
+```
 
 
 
