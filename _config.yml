@@ -14,24 +14,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-seo-tag
-  
-authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
 # Defaults
 defaults:
 
@@ -40,8 +23,6 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: assets/images/avatar1.jpg
       
   # all pages
   - scope:
@@ -59,6 +40,11 @@ defaults:
       path: "_sections"
     values:
       layout: default
+  
+  - scope:
+      path: "_authors"
+    values:
+      layput: author
       
 # Syntax
 markdown: kramdown
@@ -73,7 +59,27 @@ collections:
     output: false
   sections:
     output: true
-
+  authors:
+    output: true
+    
+positions:
+  staff_writer:
+    name: "Staff Writer"
+    description: "Staff writers are required to write one article per month in any column, on any activism related topic. They will also be required to attend one virtual meeting at the end of each month. To apply, you will be required to answer two short essay questions and submit one piece of writing that you have previously completed. This piece can be an article, short story, or essay completed for school."
+    link: "https://forms.gle/APVg3h9BKi5mMH5W6"
+  graphic_designer:
+    name: "Graphic Designer"
+    description: "Graphic designers will assist in formatting the edition for each month as well as other design related aspects. They are required to have experience with Canva. They will also be required to attend one virtual meeting at the end of each month. To apply, you will be required to submit one digitally designed poster, flyer, or newspaper. It may be designed on Canva or another software."
+    link: "https://forms.gle/bfNqj4uoZU6zoBYD8"
+  section_editors:
+    name: "Section Editors"
+    description: "Section Editors include the Spotlight Editor and the Art Editor. They will be required to write one article for their section if there are no submitted articles that month. They will also be required to edit all articles in the section and attend the 1 monthly meeting. To apply, you will be required to answer two short essay questions and submit one piece of writing that you have previously completed. This piece can be an article, short story, or essay completed for school. Previous editing experience is recommended."
+    link: "https://forms.gle/APVg3h9BKi5mMH5W6"
+  head_of_it:
+    name: "Head of IT"
+    description: "The Head of IT will be required to maintain and update the website. This will include posting the new edition and new articles each month. Previous coding experience/experience with Jekyll is recommended. To apply, applicants will be required to answer 2 essay questions."
+    link: "https://forms.gle/oyu7F5UekW69Zh8N9"
+  
 
 
 # Exclude metadata and development time dependencies (like Grunt plugins)

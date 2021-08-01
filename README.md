@@ -1,5 +1,7 @@
 # We Need to Talk
 
+This website is built using Jekyll. If you've never worked with Jekyll before, I recommend [this](https://jekyllrb.com/docs/step-by-step/01-setup/) tutorial.
+
 ## Adding an article
 
 To add an article, make an article file titled <YYYY-MM-DD-article-nickname>.md in the `_posts` directory. This markdown file will hold some frontmatter (denoted by the three dashes at the top of the document) and some markdown/HTML. The frontmatter contains variables that will be used throughout the site to render the article correctly. Required variables are:
@@ -38,10 +40,31 @@ Add to the article text markdown the following block of HTML, replacing N with t
 ```
 
 
-
 ## Adding an edition
 
 To add an edition, add a markdown file titled "<month><year>.md" to the `_editions` directory. In the frontmatter, specify the cover photo file name, the pdf file name, and the date. See `oct2020.md` as an example. Upload the cover photo in `assets/images` and the pdf file in `assets/editions`
+
+## Adding Authors
+
+To add an author, create a new page for that author in the _authors folder. Title your page "author-<firstname>.md." The front matter for a new author should include:
+
+* layout: author
+* name
+* avatar (full path to the author headshot)
+* bio
+* location
+* position
+* leadership: true (for editor-in-chief and managing director)
+
+For an example, please see `_authors/author-aneri.md`.
+
+## Updating Open Positions
+
+To remove an open position listed in the `Apply` page, simple remove that position from `_config.yml`. To add a position, add a field in the `positions` collection in `_config.yml`. Make sure you specify a name, description, and link for your newly created position.
+
+## Featured Posts
+
+To mark a post as featured, add `tags: [featured]` to its frontmatter. The 5 most recent posts tagged featured will be included in the featured sidebar.
 
 ## FAQ
 

@@ -5,29 +5,60 @@ permalink: "/authors-list.html"
 ---
 
 <div class="container">
-<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
-    <div class="row gap-y listrecent listrecent listauthor">
-    {% for author in site.authors %}
+<h4 class="font-weight-bold spanborder"><span>Leadership</span></h4>
+<div class="row gap-y listrecent listrecent listauthor">
+    {% assign leaders = site.authors | sort: "position" %}
+    {% for author in leaders %}
+        {% if author.leadership %}
         <div class="col-lg-6 mb-4">
-            <div class="p-4 border rounded">
+            <div class="p-4 border rounded shadow">
             <div class="row">
-            <div class="col-md-3 mb-4 mb-md-0"><img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="80" width="80"></div>
+            {% if author.avatar %}
+                <div class="col-md-3 mb-4 mb-md-0"><img alt="{{ author.name }}" src="{{site.baseurl}}/{{ author.avatar }}" class="rounded-circle" height="80" width="80"></div>
+            {% else %}
+                <div class="col-md-3 mb-4 mb-md-0"><img alt="{{ author.name }}" src="{{site.baseurl}}/assets/images/default_avatar.png" class="rounded-circle" height="80" width="80"></div>
+            {% endif %}
             <div class="col-md-9">
-            <a href="{{site.baseurl}}/author-{{ author[1].name | slugify }}">
-            <h4 class="text-dark mb-0"> {{ author[1].name }} </h4>
-            <small class="d-inline-block mt-1 mb-3 font-weight-normal">(View Posts)</small>
-            <div class="excerpt">{{ author[1].bio }}</div>
+            <a href="{{ author.url }}">
+            <h4 class="text-dark mb-0"> {{ author.name }} </h4>
+            <p class="text-dark mb-0">{{author.position}}<p>
+            <i class="text-dark mb-0" style="font-size:80%">{{author.location}}</i>
+            <div class="excerpt">{{ author.bio }}</div>
+            <h4 class="color-teal">&#8594</h4>
             </a>
-            <div class="icon-block mt-3 d-flex justify-content-between">  
-            <div>
-            <a target="_blank" href="{{ author[1].twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
-            <a target="_blank" href="{{ author[1].site }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-            </div>
-            </div>
             </div>
             </div>
             </div>
         </div>
+        {% endif %}
+    {% endfor %}
+    </div>
+<h4 class="font-weight-bold spanborder"><span>{{page.title}}</span></h4>
+    <div class="row gap-y listrecent listrecent listauthor">
+    {% for author in site.authors %}
+        {% if author.leadership %}
+        {% else %}
+        <div class="col-lg-6 mb-4">
+            <div class="p-4 border rounded shadow">
+            <div class="row">
+            {% if author.avatar %}
+                <div class="col-md-3 mb-4 mb-md-0"><img alt="{{ author.name }}" src="{{site.baseurl}}/{{ author.avatar }}" class="rounded-circle" height="80" width="80"></div>
+            {% else %}
+                <div class="col-md-3 mb-4 mb-md-0"><img alt="{{ author.name }}" src="{{site.baseurl}}/assets/images/default_avatar.png" class="rounded-circle" height="80" width="80"></div>
+            {% endif %}
+            <div class="col-md-9">
+            <a href="{{ author.url }}">
+            <h4 class="text-dark mb-0"> {{ author.name }} </h4>
+            <p class="text-dark mb-0">{{author.position}}<p>
+            <i class="text-dark mb-0" style="font-size:80%">{{author.location}}</i>
+            <div class="excerpt">{{ author.bio }}</div>
+            <h4 class="color-teal">&#8594</h4>
+            </a>
+            </div>
+            </div>
+            </div>
+        </div>
+        {% endif %}
     {% endfor %}
     </div>
 </div>
