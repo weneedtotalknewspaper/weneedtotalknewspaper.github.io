@@ -1,9 +1,9 @@
 ---
-title: "Mundana Free Jekyll Theme"
+title: "Home"
 layout: default
 pagination:
     enabled: true
-description: "A great Jekyll theme developed by Sal @wowthemesnet."
+description: "A global, student-run newspaper."
 ---
 
 
@@ -150,25 +150,21 @@ description: "A great Jekyll theme developed by Sal @wowthemesnet."
 </div>
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-{% for post in site.posts %} 
-{% if post.tags contains "sticky" %}
 <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
             <div class="col-md-6 pt-6 pb-6 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
+                <h1 class="mb-3">We Need to Talk</h1>
                 <p class="mb-3 lead">
-                    {{ post.excerpt | strip_html | strip_newlines | truncate: 136 }}
+                    A global, student-run newspaper talking about the issues that mainstream media often ignores.
                 </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Read More</a>
+                <a href="{{site.baseurl}}/about" class="btn btn-dark">Read More</a>
             </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.cover_photo }});">	
+            <div class="col-md-5 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/assets/images/team.jpeg);">	
             </div>
         </div>
     </div>
 </div> 
-{% endif %}
-{% endfor %}
 
 
     
