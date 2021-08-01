@@ -7,6 +7,11 @@
 	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
 	</p>
 	<small class="d-block text-muted">
+		{% for author in site.authors %}
+			{% if author.name == post.author %}
+				By <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/{{author.permalink}}">{{ author.name }}</a>
+			{% endif %}
+		{% endfor %}
 		In <span class="catlist">
 			
 		{% for section in site.sections %}

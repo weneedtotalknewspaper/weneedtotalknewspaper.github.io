@@ -11,6 +11,7 @@ To add an article, make an article file titled <YYYY-MM-DD-article-nickname>.md 
 * author
 * cover_photo (provide a path to the article cover photo in the assets/images folder)
 * section 
+* cover_photo_attribution (attribution text for the cover photo)
 
 Optional variables are:
 

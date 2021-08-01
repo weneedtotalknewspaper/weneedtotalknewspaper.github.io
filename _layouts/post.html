@@ -30,10 +30,13 @@ layout: default
 						</small>
 					</div>
 				</div>
-                {% if page.cover_photo %}
-				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="{% if page.cover_photo contains "://" %}{{ page.cover_photo }}{% else %}{{ site.baseurl }}/{{ page.cover_photo }}{% endif %}" alt="{{ page.title }}">
-				</div>
+				{% if page.cover_photo %}
+					<div class="col-md-6 pr-0 align-self-center">
+						<figure>
+						<img class="rounded" src="{% if page.cover_photo contains "://" %}{{ page.cover_photo }}{% else %}{{ site.baseurl }}/{{ page.cover_photo }}{% endif %}" alt="{{ page.title }}">
+						<figcaption class="figure-caption">{{page.cover_photo_attribution}}</figcaption>
+						</figure>
+					</div>
                 {% endif %}
 			</div>
 		</div>
