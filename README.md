@@ -8,7 +8,7 @@ To run the website locally, run `bundle exec jekyll serve` from the repo root. I
 
 ## Publishing 
 
-To publish your changes, commit them a new branch (not the main branch) and open a new pull request. Then, go to Netlify and look at the deploy preview for this branch. If everything looks good, merge your pull request and Netlify will automatically publish your changes. You can see the published version of the site [here](www.stoic-wiles-9d4447.netlify.app).
+To publish your changes, commit them a new branch (not the main branch) and open a new pull request. Then, go to Netlify and look at the deploy preview for this branch. If everything looks good, merge your pull request and Netlify will automatically publish your changes. You can see the published version of the site [here](https://www.stoic-wiles-9d4447.netlify.app).
 
 ## Adding an article
 
