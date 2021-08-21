@@ -6,6 +6,10 @@ This website is built using Jekyll. If you've never worked with Jekyll before, I
 
 To run the website locally, run `bundle exec jekyll serve` from the repo root. If you make front-end changes, jekyll will automatically reload them. If you make backend changes (usually `_config.yml`), then you will need to rerun `bundle exec jekyll serve`.
 
+## Publishing 
+
+To publish your changes, commit them a new branch (not the main branch) and open a new pull request. Then, go to Netlify and look at the deploy preview for this branch. If everything looks good, merge your pull request and Netlify will automatically publish your changes. You can see the published version of the site [here](www.stoic-wiles-9d4447.netlify.app).
+
 ## Adding an article
 
 To add an article, make an article file titled <YYYY-MM-DD-article-nickname>.md in the `_posts` directory. This markdown file will hold some frontmatter (denoted by the three dashes at the top of the document) and some markdown/HTML. The frontmatter contains variables that will be used throughout the site to render the article correctly. Required variables are:
