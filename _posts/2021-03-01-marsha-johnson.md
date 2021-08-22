@@ -1,0 +1,17 @@
+---
+date: "2021-03-01"
+title: The Life and Impact of Marsha P. Johnson
+layout: post
+author: Yedilsaac Degu
+cover_photo: "assets/images/marsha.jpg"
+section: History
+tags: [featured]
+---
+
+For the past 50 years we have been celebrating black history and culture during the month of February. For almost an equal amount of time we’ve been celebrating LGBTQ+ Pride. Both these months commemorate the liberation of oppressed people throughout history. During the past year, conversations have been taking place about race, queerness and the intersection of both. One of the cultural impacts of the current COVID 19 lockdown is that conversations are being had, and people with multiple marginalized identities are speaking up about their experiences. Though education on these issues is progressing, it isn’t progressing fast enough.
+
+Over the summer last year there was an eruption in the Black Lives Matter movement. After the deaths of George Floyd and Breonna Taylor, protests sparked not only across America but also across the world. Though the chorus of “Black Lives Matter” echoed in multiple nations, it seems Black Trans Lives have not been included. While 2020 was a year in which black voices had been amplified and the loss of black lives has since ignited a movement calling for change, it had simultaneously been the deadliest year for transgender people on record since the beginning of the tracking of deaths in 2013. Black and Latino members of the transgender community account for almost all of the deaths on record in 2020. Black Lives can never fully matter if Black Trans Lives are not included, for the intersectionality of the struggles and lives of all Black people must be recognized in the fight for Black liberation. Black Transgender people have been fighting against abuse since the beginning of the Gay Liberation Movement while also being at the forefront of the Black Liberation Movement. An example of this is the life and story of Marsha P Johnson.
+
+Marsha P Johnson was born in Elizabeth, New Jersey to a devoutly religious family. Growing up in a generally conservative Christian society, she was often condemned and reprimanded for being herself. Due to this, she left her hometown as soon as she graduated and sought a life in New York where she soon found a community of like-minded people. This was around the time she started her journey to becoming one of the most important figures in LGBTQ+ history and more specifically, the Stonewall Riots. On June 28, 1969, Marsha was part of the vanguard that resisted police during the Stonewall demonstration. While there are a lot of different accounts of what her role was in the demonstrations, one thing is agreed upon, she was said to have climbed a lamppost and thrown a very heavy object that was in a bag and shattered a police window. Her role in the Stonewall demonstrations has been vital for it is an example of the intersectionality of homophobia and racism.
+
+Soon after the riots, her and her friend Sylvia Rivera founded the Street Transvestite Action Revolutionaries (STAR), an organization that provided housing and support to homeless LGBT youth and sex workers in Manhattan. In addition, she was also one of the founders of the Gay Liberation Front. Throughout the years Marsha fought hard in support of gay prisoners, to raise awareness on the AIDs epidemic, and promote gay civil rights. Her legacy continues to be important in the fight for queer liberation today and it should also be celebrated in the history of inspirational black lives.
