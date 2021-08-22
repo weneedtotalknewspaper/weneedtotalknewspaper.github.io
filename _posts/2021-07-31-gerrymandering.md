@@ -1,6 +1,6 @@
 ---
 date: "2021-07-31"
-title: "Gerrymandering: What It Is and the Need for Reform"
+title: "Gerrymandering"
 layout: post
 author: "Ketevan Gallagher"
 cover_photo: "assets/images/gerrymandering.jpeg"
