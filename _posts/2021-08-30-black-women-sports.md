@@ -17,8 +17,7 @@ Black women are celebrated for their accomplishments as long as their accomplish
 
 When the success is sweet the backlash is bitter. When Gabby Douglas won the Olympic gold medal in 2012, the focus was taken away from the dangling piece of gold that hung from her neck, as she stood as not only the first African American to win the all-around title but the first American to claim gold medals in the team and all-around events, and towards her hair. She was dragged across social media and even four years later, at the 2016 Olympics people rushed towards their twitter, Instagram, and face book holes, not to comment on her skill and ability as a world class gymnast, but to throw around comments about her hair that are not only racist but dehumanizing as well. What is the most horrifying is these comments were mainly thrown around by black men and women.
 
-![bwomen3](/assets/images/bwomen3.jpg)
-![bwomen4](/assets/images/bwomen4.jpg)
+![bwomen3](/assets/images/bwomen3.jpg) ![bwomen4](/assets/images/bwomen4.jpg)
 
 Black women in sports are also stripped of their femininity and projected to the world as aggressive. Serena Williams, considered to be the greatest female tennis player of all time, has been subject to baffling instances of blatant racism where she was even compared, in many instances, to a gorilla. These statements were not only circulated on social media but even on some national programs. There were even some cartoon drawings depicting her as a monstrous, hulking, animal-like figure. These depictions were degrading, dehumanizing, and invalidating on so many terms and Serena Williams and so many others have been victim to these kinds of instances.
 Swim caps designed for natural black hair are banned. They are deemed too masculine, too opinionated, their hair too kinky, their nails too long, too fast, too strong, too good, too athletic.

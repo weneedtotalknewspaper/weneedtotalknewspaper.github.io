@@ -23,6 +23,7 @@ Today, the NFTs have created a rapidly expanding market especially for art. A lo
 Despite criticism that the NFT market is just a bubble economy, more and more artists are going digital every day and a lot of people are looking to invest as this is just the beginning of a new significant market which is paving way to a new renaissance.
 
 ![digital_01](/assets/images/digart.jpg)
+
 Ocean Front by Beeple from artstation.com
 
 ![digital_1](/assets/images/digart1.png)
