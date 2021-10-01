@@ -1,5 +1,5 @@
 ---
-date: "2021-09-24"
+date: "2021-09-30"
 title: The Shooting of Guila Dale
 layout: post
 author: "Elbethel Gebeyehu"

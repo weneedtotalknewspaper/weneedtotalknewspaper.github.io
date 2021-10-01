@@ -1,5 +1,5 @@
 ---
-date: "2021-09-24"
+date: "2021-09-30"
 title: The Tragic End to America’s Afghan Forever War
 layout: post
 author: "Vijay Fisch"
