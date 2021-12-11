@@ -65,15 +65,15 @@ positions:
   staff_writer:
     name: "Staff Writer"
     description: "Staff writers are required to write one article per month in any column, on any activism related topic. They will also be required to attend one virtual meeting at the end of each month. To apply, you will be required to answer two short essay questions and submit one piece of writing that you have previously completed. This piece can be an article, short story, or essay completed for school."
-    link: "https://forms.gle/APVg3h9BKi5mMH5W6"
+    link: "https://forms.gle/wGkXaNxpXk3YnVXf9"
   graphic_designer:
     name: "Graphic Designer"
     description: "Graphic designers will assist in formatting the edition for each month as well as other design related aspects. They are required to have experience with Canva. They will also be required to attend one virtual meeting at the end of each month. To apply, you will be required to submit one digitally designed poster, flyer, or newspaper. It may be designed on Canva or another software."
-    link: "https://forms.gle/bfNqj4uoZU6zoBYD8"
+    link: "https://forms.gle/nLztfQ7t4X2pruGj8"
   section_editors:
     name: "Section Editors"
     description: "Section Editors include the Spotlight Editor and the Art Editor. They will be required to write one article for their section if there are no submitted articles that month. They will also be required to edit all articles in the section and attend the 1 monthly meeting. To apply, you will be required to answer two short essay questions and submit one piece of writing that you have previously completed. This piece can be an article, short story, or essay completed for school. Previous editing experience is recommended."
-    link: "https://forms.gle/APVg3h9BKi5mMH5W6"
+    link: "https://forms.gle/wGkXaNxpXk3YnVXf9"
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude:
