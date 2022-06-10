@@ -1,0 +1,16 @@
+---
+date: "2021-05-31"
+title: "Amazon Union Vote Appealed"
+layout: post
+author: "Deetya Adikhari"
+cover_photo: "assets/images/amazon.png"
+section: "Current Events"
+---
+
+Demand for online delivery has increased as quarantine suddenly struck society, and popular online retailer Amazon is no stranger to that fact. According to an employee tally at one delivery center, Amazon has been processing from 10% to 40% more packages than normal for this time of year. The company’s website had 639,330,722 visits for the week of March 9, according to data from Comscore, up 32% from the year earlier. This has put employees and workers there under immense strain as they try to process orders as quickly as possible.
+
+Even before the pandemic, accounts of Amazon’s horrible treatment of its employees were often leaked. People said that the company treated them as if they were robots instead of humans; not allowing more than 18 minutes per day for essentials such as bathroom breaks,, in their 12+ hour shifts. Now that demand has risen exponentially, the fervent exploitation of employees has only been exacerbated. At this point, workers have had enough of the appalling treatment they receive from Amazon and in early April, some employees tried forming a worker union in an attempt to alleviate the torment and exploitation they face at work. April 9, Bessemer, Alabama: Amazon shut down the labor union efforts by obtaining a majority of the 3,215 total ballots cast by employees. They intimidated and coerced their employees into voting against the labor union by assailing them with anti-union threats, such as threatening pay-cuts for those who vote for the union. Under-handed tactics such as these are what large companies have been using as a means to silence the voices of their workers for decades.
+
+A few weeks later, in early May, the Amazon union vote has been appealed by the Retail, Wholesale and Department Store Union (RWDSU), as they litigate the outcome of the election. According to a statement issued from the RWDSU, Amazon “prevented a free and uncoerced exercise of choice by the employees” through its retaliations and unrelenting tactics used against union advocates. Currently, the outcome of the appeal is not certain, but whether the RWDSU is successful in its endeavor or not, the ongoing situation with the Amazon union vote will help to elucidate the matter of injustice in the workplace regarding freedom.
+
+Now that light has been shone on this issue through recent events, a new act has been passed through the House of Representatives: the Protecting the Right to Organize Act (PRO Act), which intends to do as it says: protect the right of laborers to start labor unions. It is anticipated to tackle the growing inequality and injustice that laborers have faced since the first industrial revolution by addressing shortcomings in current US laws concerning labor unions. As shown time and time again, companies are willing to mistreat and exploit employees on a large scale to profit off of them and make copious amounts of money. Corporations have suppressed the voices of employees for far too long, and it is now time for laborers to rise up and stand for their rights.

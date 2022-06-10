@@ -1,0 +1,20 @@
+---
+date: "2021-04-27"
+title: Queer and Self Identities During Lockdown
+layout: post
+author: "Deetya Adikhari"
+cover_photo: "assets/images/queer.jpeg"
+section: "Opinion"
+---
+
+Insecurity plagues many of us, taunting our very being. It comes in several forms, whether it be through our physical appearance, gender, sexual orientation, or even personality. Sometimes, the anxiety takes over, the unreasonable thoughts storming your mind like a sudden tidal wave. Sometimes, we feel stuck, drowning, the hurricane closing around us; we’re right at the eye, helplessly thrashing about in an endless pool of doubt. Sometimes, we feel like all that’s left of us are the ruins. Left unchecked, these feelings can easily overpower us.
+
+Humans are naturally observant, but there are innumerable people who take these observations to make jarring derogatory judgements and comments. Before, going through our daily routines in the public, surrounded by a number of homophobes and transphobes, racists and sexists all picking and prodding at our very existence, it was hard to accept who you are. Those who identify as LGBTQ+ especially understand this struggle, and this period of quarantine has given many of them a break from the grueling stares which they had to constantly bear with in the past. For those who live in discriminatory environments, however, lockdown may not have quite as positive of an effect. Nevertheless, the point still stands that numerous members of the LGBTQ+ community will come out of lockdown with a new appreciation for themselves.
+
+People have lost their jobs, family, and friends, but through all this, many have gained a sense of self-worth and contentment. Though this does not negate the aforementioned tragedies of the pandemic, this new-found self-acceptance will carry on into post-pandemic life. In the hiatus from everyday life, due to the novel coronavirus, many have taken a step back to reflect upon their lives, changing how they view themselves for the better. For example, gyms have closed, so people have resorted to working out at home. Through doing this, I, among others, realized how much better I felt about myself without fit men and women surrounding me, almost taunting me with how easily they work out, promoting ideals devastatingly out of my reach. Before when I took a look into a mirror, I saw myself as an amalgamation of my flaws. Now that I have had time to myself, I see that I am much more than a number on a scale, much more than my supposedly flawed reflection in the mirror. Another example is for those who struggle with gender dysphoria - a feeling of discomfort or distress for those whose gender identity differs from their sex assigned at birth. This sense of dissatisfaction can be so intense to deal with, so much so that it can lead to anxiety and depression. Having to keep distance from others has given individuals the opportunity to deal with their dysphoria without feeling the judgement and eyes of others on them.
+
+![queer1](/assets/images/queer1.png)
+
+Through new-found self-discovery, people have come to peace with their gender/sexual identities and labels. Accepting and becoming honest with yourself has a profound effect on your psyche: you become more comfortable in your own skin, alleviate any stress that hiding from yourself and others caused, among other benefits. The introspective nature of quarantine has helped to realize what identity you truly feel comfortable in, as you are comparatively farther from the judgement and clamor of society. Those who are lucky enough to be living in loving, accepting environments are given the space and freedom to experiment with their identities, as they figure out what feels right to them.
+
+My message to people reading this: take advantage of this time you are given to contemplate and accept your emotions. This prolonged period of self-isolation has given people the sorely-needed opportunity to take a step back and reflect upon themselves, with a focus on self care. Coming out of quarantine, many will see themselves, and hopefully others, in a new, more positive light.
