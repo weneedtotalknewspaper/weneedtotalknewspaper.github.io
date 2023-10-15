@@ -3,7 +3,7 @@ date: "2022-01-30"
 title: "Jean-Michel Basquiat, Keith Haring, and the Impact of Street Art"
 layout: post
 author: "Andrew Daly"
-cover_photo: "assets/images/-basquiat.jpeg"
+cover_photo: "assets/images/basquiat.jpeg"
 section: "Art"
 ---
 

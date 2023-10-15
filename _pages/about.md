@@ -4,6 +4,12 @@ permalink: "/about.html"
 image: "assets/images/team.jpeg"
 comments: false
 ---
+<div markdown="span" class="alert alert-info" role="alert"><i class="fa fa-info-circle"></i> <b>Note:</b>
+ The We Need To Talk project started to bring global youth together and combat the isolation induced by the COVID pandemic. As the world opened up, We Need To Talk members transitioned to creating impact in their local
+ communities, and this organization is no longer active. We leave this site up to commemorate the impact and memories
+ our writers created during the pandemic.
+ </div>
+
 <div class="container">
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
         <div class="h-100 tofront">
