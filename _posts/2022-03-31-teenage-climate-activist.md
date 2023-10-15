@@ -3,6 +3,7 @@ date: "2022-03-30"
 title: "Sofia Kianni: Teenage Climate Activist"
 layout: post
 author: Deetya Adikhari
+cover_photo: "assets/images/sofia-kianni.jpeg"
 section: "Spotlight"
 tags: [featured]
 ---
