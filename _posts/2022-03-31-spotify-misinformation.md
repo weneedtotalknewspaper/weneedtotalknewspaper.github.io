@@ -3,6 +3,7 @@ date: "2022-03-30"
 title: "Spotify Misinformation - Joe Rogan"
 layout: post
 author: Deetya Adikhari
+cover_photo: "assets/images/joe-rogan.png"
 section: "Opinion"
 ---
 

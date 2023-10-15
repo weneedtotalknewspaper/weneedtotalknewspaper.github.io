@@ -3,6 +3,7 @@ date: "2022-03-30"
 title: "Sojourner Truth"
 layout: post
 author: "Samalmi Dewamullage"
+cover_photo: "assets/images/sojourner-truth.jpg"
 section: "History"
 tw: "Racism & Racial Violence, Rape, Murder, Abuse"
 ---
